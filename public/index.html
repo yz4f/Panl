@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#07070b" />
+  <title>هلس تبوك</title>
+  <meta name="description" content="هنا تجتمع أجواء وهلس تبوك — معرض بصري سريع وخفيف." />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="nav glass">
+    <a href="#top" class="brand"><span class="logo-mark">هـ</span><span>هلس تبوك</span></a>
+    <nav><a href="#gallery">الصور</a><a href="#vibe">الأجواء</a><a href="#about">عن الموقع</a></nav>
+    <button id="musicToggle" class="icon-btn" aria-label="تشغيل أو إيقاف الموسيقى" title="الموسيقى تعمل تلقائياً">❚❚</button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media"><img src="/assets/05.webp" alt="صورة من أجواء تبوك" fetchpriority="high" /><div class="hero-overlay"></div></div>
+      <div class="hero-copy reveal"><span class="eyebrow">TABUK / 2026</span><h1>هنا تجتمع<br><em>أجواء وهلس تبوك</em></h1><p>تجربة صور سريعة، داكنة، وحيوية — مصممة كأنك تتصفح ستوري لكن بشكل موقع كامل.</p><div class="hero-actions"><a class="primary" href="#gallery">ابدأ التصفح</a><a class="ghost" href="#vibe">شوف الأجواء</a></div></div>
+      <div class="scroll-hint">اسحب للأسفل ↓</div>
+    </section>
+    <section id="vibe" class="ticker-wrap"><div class="ticker"><span>هلس تبوك</span><i>•</i><span>صور</span><i>•</i><span>أجواء</span><i>•</i><span>ستايل ليلي</span><i>•</i><span>هلس تبوك</span><i>•</i><span>صور</span><i>•</i><span>أجواء</span></div></section>
+    <section class="intro section reveal"><div><span class="eyebrow">المشهد</span><h2>كل صورة لها جوها.</h2></div><p>رتبنا المعرض بحيث تكون الصور هي الأساس: انتقالات هادئة، تكبير عند المرور، عرض كامل عند الضغط، وتصفح ممتاز على الجوال والكمبيوتر.</p></section>
+    <section id="gallery" class="gallery section">
+      <article class="tile tall reveal"><img src="/assets/01.webp" alt="صورة 1" loading="lazy"><div class="caption">01 — البداية</div></article>
+      <article class="tile reveal"><img src="/assets/02.webp" alt="صورة 2" loading="lazy"><div class="caption">02 — انتظار</div></article>
+      <article class="tile reveal"><img src="/assets/03.webp" alt="صورة 3" loading="lazy"><div class="caption">03 — لقطة</div></article>
+      <article class="tile wide reveal"><img src="/assets/06.webp" alt="صورة 6" loading="lazy"><div class="caption">04 — طريق</div></article>
+      <article class="tile reveal"><img src="/assets/04.webp" alt="صورة 4" loading="lazy"><div class="caption">05 — فلتر</div></article>
+      <article class="tile tall reveal"><img src="/assets/08.webp" alt="صورة 8" loading="lazy"><div class="caption">06 — ليل</div></article>
+      <article class="tile reveal"><img src="/assets/07.webp" alt="صورة 7" loading="lazy"><div class="caption">07 — شارع</div></article>
+      <article class="tile wide reveal"><img src="/assets/09.webp" alt="صورة 9" loading="lazy"><div class="caption">08 — تجمع</div></article>
+      <article class="tile reveal"><img src="/assets/10.webp" alt="صورة 10" loading="lazy"><div class="caption">09 — جدار</div></article>
+      <article class="tile reveal"><img src="/assets/11.webp" alt="صورة 11" loading="lazy"><div class="caption">10 — لقطة يومية</div></article>
+    </section>
+    <section id="about" class="quote section reveal"><span class="eyebrow">هلس تبوك</span><h2>مكان واحد يجمع الصور، الأجواء، والذكريات بطريقة سريعة وخفيفة.</h2><p>التصميم مبني ليكون واضح وممتع بدون ازدحام، مع أداء ممتاز وحركات بسيطة غير مزعجة.</p></section>
+  </main>
+  <footer><strong>هلس تبوك</strong><span>© 2026</span><span>Tabuk</span></footer>
+  <div id="lightbox" class="lightbox" aria-hidden="true"><button id="closeLightbox">×</button><img id="lightboxImg" alt="عرض الصورة"></div>
+  <div id="yt" class="yt-holder"></div>
+  <script src="https://www.youtube.com/iframe_api"></script><script src="/app.js"></script>
+</body></html>
